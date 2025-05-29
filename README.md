@@ -19,3 +19,9 @@ echo "Hello $guestName"
 to change the file  into executable mode we can use command (mentioned below)
 chmod u+x filename
 ```
+
+Declaring a variable  ----  name="Swathi"
+use variable  ----- echo "$name"
+use input ----- read variable_name
+Arithmetic  ---- sum=$((x+y))
+special variables ---- $0 (filename) ,$1 (argument1), $2(argument 2) , ...., $#(no of arguments) , $@(All arguments) ,$$(process ID of script) ,$?(exit status of last command 0=sucess)
