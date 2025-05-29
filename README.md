@@ -12,5 +12,5 @@ echo "Hello $guestName"
 ```
 "rwx" ---r-read  w-write  x-execute
 to change the file  into executable mode we can use command (mentioned below)
-chmod u+x   
+chmod u+x filename
 ```
