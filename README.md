@@ -4,6 +4,7 @@
 here we can see the examples and lessons
 
 [shell scripting](https://github.com/zakeer/shell-scripting/blob/main/examples/example.md)
+[git and github](https://youtu.be/LGLuHYHbCFA?si=pWR3vg3-GLaoE0So)
 ```
 read -p "message" variableName
 
