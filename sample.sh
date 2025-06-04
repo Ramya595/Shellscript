@@ -8,6 +8,7 @@ echo " Hey $1 is $2 years old"
 
 x=3
 y=4
+  
 z=$((x+y))
 echo "sum is $z"
 

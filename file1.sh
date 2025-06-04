@@ -10,6 +10,7 @@ if [ $username = "admin" ]; then
     echo " you are $username"
     fi
 
+
 if [ $age -lt 13 ]; then
 echo "no access"
 elif [ $age -lt 18 ]; then
