@@ -44,3 +44,8 @@
 - `${string/old/new}` Replacing part of a string (first occurence)
 - `${string//old/new}`  Replacing all occurences
 - ` echo ${string%removing_part} ` Removing part of a string
+- `fruits=("apple" "banana" "orange")` Creating an array # in bash we use spaces for seperation
+- `echo ${fruits[@]}` `echo ${fruits[*]}`  To get all items
+- `echo ${#fruits[@]} `  find the length of an array
+- ` fruits+=("Guaua")`   Adding an item into an array
+- `unset fruits[1]`  Removing an item in specific index position
