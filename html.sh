@@ -16,7 +16,7 @@ echo " vim filename  --- to enter in file and make changes"
 echo "mkdir--- to make the directory"
 echo " cd-- to change the directory"
 echo "command(ls) flags(-l) arguments() "
-echo " command(pyhton) arguments(filename)---to run the file in python"
+echo " command(python) arguments(filename)---to run the file in python"
 <<<<<<< HEAD
 =======
 echo " Pyhton---directly enter in to that language write &run her--> command - exit() to get back"
