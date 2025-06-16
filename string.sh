@@ -47,5 +47,5 @@ languages+=("Bash")
 unset languages[2]
 echo ${languages[@]}
 for language in ${languages[@]};do
- echo "Language: $languages"
+ echo "Language: $language"
 done
