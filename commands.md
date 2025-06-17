@@ -19,7 +19,7 @@
 - `chmod u+x [filename]` to change the file in executable mode
 - `clear` to clear the terminal
 - `bash [filename]  , python [filename] ` to run the file
-- `vim [filename]` to create or update the file
+- `vim [filename]` to create or update the file, # press`i` to write the code  , # ESCAPE --> :wq   to close the file
 
 ### Git commands to save files local <-------> Remote
 
@@ -33,3 +33,8 @@
 - `git add ./` stage changes
 - `git commit -m "massage" ` to commit changes 
 - `git push`  
+
+#### shebang
+
+-`#! /usr/bin/bash` which interpreter use to run
+

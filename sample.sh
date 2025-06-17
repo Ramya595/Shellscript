@@ -19,3 +19,4 @@ echo "$?"
 
 
 
+#system properties lo Environment variables
