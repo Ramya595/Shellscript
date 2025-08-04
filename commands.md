@@ -26,13 +26,16 @@
 #### Remote to local
 
 - `git init` to initialise git
-- `git pull`  
+- `git remote add origin [URL]` to add remote repository into folder.
+- `git pull`  pulling the files or content from remote to local.
+- `git clone[URL]` cloning remote repostiory.
 
 #### Local to Remote
 
 - `git add ./` stage changes
 - `git commit -m "massage" ` to commit changes 
-- `git push`  
+- `git push`
+  
 
 #### shebang
 
