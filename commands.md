@@ -27,6 +27,7 @@
 
 - `git init` to initialise git
 - `git remote add origin [URL]` to add remote repository into folder.
+- `git branch -M main` renames current branch to main
 - `git pull`  pulling the files or content from remote to local.
 - `git clone[URL]` cloning remote repostiory.
 
