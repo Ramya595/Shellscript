@@ -29,6 +29,7 @@
 - `git remote add origin [URL]` to add remote repository into folder.
 - `git branch -M main` renames current branch to main
 - `git pull`  pulling the files or content from remote to local.
+- `git clone --branch <branch_name> --single-branch <repo_url> `  ---cloning a branch of a directory
 - `git clone[URL]` cloning remote repostiory.
 
 #### Local to Remote
