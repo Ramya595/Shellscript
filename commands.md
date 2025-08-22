@@ -20,6 +20,8 @@
 - `clear` to clear the terminal
 - `bash [filename]  , python [filename] ` to run the file
 - `vim [filename]` to create or update the file, # press`i` to write the code  , # ESCAPE --> :wq   to close the file
+- `nano[filename]` helps to open a new file or existing file
+- `ctrl+o`,`enter`and `ctrl+x` helps to come out of the editor 
 
 ### Git commands to save files local <-------> Remote
 
