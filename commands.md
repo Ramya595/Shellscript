@@ -39,7 +39,26 @@
 - `git add ./` stage changes
 - `git commit -m "massage" ` to commit changes 
 - `git push`
-  
+
+#### Want to change Git Remote details
+1. Shows URLs of remote repositories
+```
+git remote -v
+```
+2. removing the origin
+```
+git remote remove origin 
+```
+3. Adding the origin
+```
+git remote add origin <url-your-repository-path>
+```
+- eg: git remote add origin  https://github.com/Ramya595/Fast_API.git
+
+4. Fetching the git
+```
+git fetch
+```
 
 #### shebang
 
