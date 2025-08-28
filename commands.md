@@ -34,6 +34,7 @@
 - `git pull`  pulling the files or content from remote to local.
 - `git clone --branch <branch_name> --single-branch <repo_url> `  ---cloning a branch of a directory
 - `git clone[URL]` cloning remote repostiory.
+  
 
 #### Local to Remote
 
@@ -41,7 +42,8 @@
 - `git commit -m "massage" ` to commit changes 
 - `git push`
 - `git diff `  to check the changes made in that file
-- `git logs` to check the commits on that
+- `git log` to check the commits on that
+- `git reset --hard <previous commit ID>` to go to the previous version ( previous commit)
 #### Want to change Git Remote details
 1. Shows URLs of remote repositories
 ```
