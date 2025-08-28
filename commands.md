@@ -40,7 +40,8 @@
 - `git add ./` stage changes
 - `git commit -m "massage" ` to commit changes 
 - `git push`
-
+- `git diff `  to check the changes made in that file
+- `git logs` to check the commits on that
 #### Want to change Git Remote details
 1. Shows URLs of remote repositories
 ```
