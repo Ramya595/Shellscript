@@ -28,23 +28,48 @@
 
 #### Remote to local
 
-- `git init` to initialise git
-- `git remote add origin [URL]` to add remote repository into folder.
-- `git branch -M main` renames current branch to main
-- `git pull`  pulling the files or content from remote to local.
-- `git clone --branch <branch_name> --single-branch <repo_url> `  ---cloning a branch of a directory
-- `git clone[URL]` cloning remote repostiory.
+- `git init` → to initialise git
+- `git remote add origin [URL]` → to add remote repository into folder.
+- `git pull` → pulling the files or content from remote to local.
+- `git clone[URL]` → Clone a GitHub repo to your system.
+- `git clone --branch <branch_name> --single-branch <repo_url> ` → cloning a branch of a directory
+
+#### Staging & Committing
+- `git status` → Check modified/untracked files.
+- `git add <file> ` → Stage a file
+- `git add . ` → Stage all changes
+- `git commit -m "message" ` → Commit staged changes
   
+####  Pushing (Upload to GitHub)
+- `git push` → is used to upload your local commits to a remote repository
+- `git push origin <branch>` → Push branch to GitHub
+- `git push -u origin <branch>` → Push + set upstream
+  
+####  Pulling & Fetching (Download from GitHub)
+- `git pull` → pulling the files or content from remote to local.
+- `git pull origin <branch>` → Fetch & merge changes from GitHub
+- `git fetch` → Fetch changes (without merging)
+  
+####  Checking Changes & History
+- `git diff ` → View changes made in files
+- `git log` → View commit history
+  
+#### Branching
+- `git branch -M main` → renames current branch to main
+- `git branch` → List branches
+- `git branch <name>` → Create a new branch
+- `git checkout <name>` → Switch branch
+- `git checkout -b <name>` → Create + switch to a new branch
+- `git merge <branch>` → Merge another branch into current
+- `git branch -d <name>` → Delete a branch`
 
-#### Local to Remote
+#### Git  Stash (save temporary changes)
 
-- `git add ./` stage changes
-- `git commit -m "massage" ` to commit changes 
-- `git push`
-- `git diff `  to check the changes made in that file
-- `git log` to check the commits on that
-- `git reset --hard <previous commit ID>` to go to the previous version ( previous commit)
+- `git stash pop` → Restore + remove last stash
+- `git stash list` → View all stashes
+
 #### Want to change Git Remote details
+
 1. Shows URLs of remote repositories
 ```
 git remote -v
@@ -63,6 +88,14 @@ git remote add origin <url-your-repository-path>
 ```
 git fetch
 ```
+####  Undo & Fix
+- `git reset <file>` → Unstage a file
+- `git reset --hard` → Reset to last commit ( deletes changes)
+- `git reset --hard <previous commit ID>` →to go to the previous version ( previous commit)
+- `git checkout -- <file>` → Discard changes in a file
+- `git revert <commit-id>` → Undo a commit safely
+- `git log` → Show commit history
+- `git diff` → Show unstaged changes
 
 #### shebang
 
